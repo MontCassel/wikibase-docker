@@ -1,4 +1,4 @@
-## wikibase-docker
+## wikibase-docker 0
 
 This repo contains [Docker](https://www.docker.com/) images needed to setup a local Wikibase instance and a query service.
 
