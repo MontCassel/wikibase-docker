@@ -38,6 +38,8 @@ COPY entrypoint.sh /entrypoint.sh
 COPY LocalSettings.php.template /LocalSettings.php.template
 COPY htaccess /var/www/html/.htaccess
 
+COPY --chown=www-data logo_135x135.png /var/www/html/logo.png
+
 RUN ln -s /var/www/html/ /var/www/html/w
 
 ENV MW_SITE_NAME=wikibase-docker\

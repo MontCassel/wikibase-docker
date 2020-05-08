@@ -46,6 +46,8 @@ ${DOLLAR}wgSecretKey = "${MW_WG_SECRET_KEY}";
 # Set this to 1 year to avoid any changes being removed from the RC table over a shorter period of time.
 ${DOLLAR}wgRCMaxAge = 365 * 24 * 3600;
 
+${DOLLAR}wgLogo = '/logo.png';
+
 wfLoadSkin( 'Vector' );
 
 ## Wikibase
