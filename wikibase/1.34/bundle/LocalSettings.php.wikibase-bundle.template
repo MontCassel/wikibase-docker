@@ -25,3 +25,5 @@ wfLoadExtension( 'cldr' );
 
 #EntitySchema
 wfLoadExtension( 'EntitySchema' );
+
+${DOLLAR}wgLogo = '/logo.png';
